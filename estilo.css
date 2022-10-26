@@ -2,6 +2,7 @@
 p{
     text-align: justify;
     text-indent:50px;
+    color: black;
     }
     body{
         background-image: url("https://static-cse.canva.com/blob/611851/FundodeArcorisparaZoom1.png");
@@ -9,7 +10,30 @@ p{
 
 
     }
+    div#interface{
+        width: 800px;
+        background-color: white;
+        margin:-20px 100px 100px 100px;
+        box-shadow:0px 0px 10px black;
+        padding: 10px;
+    }
+    header#cabecalho img#icon{
+        position:absolute;
+        left: 750px;
+        top:40px;
+        }
+      
+    header#cabecalho{
+        border-bottom: 1px #606060 solid;
+        height: 150x;
+        background: url("../_imagens/glass-logo-peq.jpg") no-repeat;
 
+    }
+header#cabecalho h1{
+    font-family:  arial, sans-serif;
+    font-size: 30px;
+    color:#606060;
+}
     /* Formatação do site*/
     
     figure.foto-legenda{
@@ -37,3 +61,40 @@ p{
     figure.foto-legenda:hover figcaption{
         opacity:1;
     }
+ /* formatação do menu*/
+
+ nav#menu{
+    display:block;
+}
+
+ nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position:absolute;
+    top:-15px;
+    left:300px;
+
+ }
+
+ nav#menu li{
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 10px;
+    maring: 2px;
+    transition: background-color 1s;
+ }
+
+ nav#menu li:hover{
+    background-color:#606060;
+   text-decoration: underline;
+ }
+
+ nav#menu h1{
+    display:none;
+
+ }
+
+ nav#menu a{
+    color:black;
+    text-decoration: none;
+ }
